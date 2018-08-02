@@ -55,7 +55,7 @@ include("call_login.php")
 					<img src="images/logobus.png" alt="IMG">
 				</div>
 
-				<form id="login" action="register.php" onsubmit="return validate()" method="post" name="login"">
+				<form id="login" action="login.php" onsubmit="return validate()" method="post" name="login"">
 					<span class="login100-form-title">
 						Member Login
 					</span>
@@ -77,7 +77,7 @@ include("call_login.php")
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
 						
-					<INPUT TYPE="Submit" value="Submit"  name="submit" id="submit" class="button" onclick="window.location.href='index.php'">
+					<INPUT TYPE="Submit" value="Submit"  name="submit" id="submit" class="button" onclick="window.location.href='index1.php'">
 						
 						</button>
 					</div>
@@ -88,6 +88,10 @@ include("call_login.php")
 						</span>
 						<a class="txt2" href="#">
 							Username / Password?
+						</a>
+						<p>||</p>
+						<a class="txt2" href="auth.php">
+							Login dengan akun Google?
 						</a>
 					</div>
 
